@@ -1,0 +1,87 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8228fedf-1841-45d0-bfd8-1336e51f17f0)
+
+  (paper "A4")
+
+  (title_block
+    (title "24V_1A_CEVIRICI")
+    (rev "v02072024")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 72.39 52.07) (size 21.59 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 255 0 1))
+    (fill (color 0 255 0 1.0000))
+    (uuid 0b6fdf2f-e69f-4492-a6ea-1db1827da576)
+    (property "Sheetname" "PWR_IN" (at 72.39 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pwr_in.kicad_sch" (at 72.39 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "24V_1A"
+        (path "/8228fedf-1841-45d0-bfd8-1336e51f17f0" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 187.96 52.07) (size 19.05 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 194 0 194 1))
+    (fill (color 194 0 194 1.0000))
+    (uuid 2ac9fad5-29b5-492b-a219-357825fc9dea)
+    (property "Sheetname" "COMMUNICATION" (at 187.96 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "communication.kicad_sch" (at 187.96 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "24V_1A"
+        (path "/8228fedf-1841-45d0-bfd8-1336e51f17f0" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 115.57 52.07) (size 21.59 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 255 255 1))
+    (fill (color 0 255 255 1.0000))
+    (uuid 4fcbdb98-90c4-4028-849a-f2018306069b)
+    (property "Sheetname" "CONVERTER" (at 115.57 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "converter.kicad_sch" (at 115.57 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "24V_1A"
+        (path "/8228fedf-1841-45d0-bfd8-1336e51f17f0" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 153.67 52.07) (size 21.59 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 132 132 1))
+    (fill (color 0 132 132 1.0000))
+    (uuid 5b1fa790-ea1d-4c96-abb0-7df2dd18c0e6)
+    (property "Sheetname" "MCU" (at 153.67 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 153.67 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "24V_1A"
+        (path "/8228fedf-1841-45d0-bfd8-1336e51f17f0" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
